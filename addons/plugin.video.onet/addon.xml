@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<addon id="plugin.video.onet" name="ONET VIDEO" version="1.0.1" provider-name="lg">
+    <requires>
+        <import addon="script.module.requests" />
+        <import addon="service.cronxbmc" optional="true"/>
+    </requires>
+    <extension point="xbmc.python.pluginsource" library="addon.py">
+        <provides>video</provides>
+    </extension>
+ 	<extension point="xbmc.addon.metadata">
+        <description lang="pl">ONET VIDEO</description>
+        <disclaimer lang="pl">ONET VIDEO
+        </disclaimer>
+        <summary lang="en">ONET VIDEO</summary>
+        <description lang="en">ONET VIDEO</description>
+        <disclaimer lang="en">ONET VIDEO
+        </disclaimer>
+        <language>pl</language>
+        <platform>all</platform>
+        <license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
+        <website></website>
+        <assets>
+            <icon>icon.png</icon>
+        </assets>
+        <reuselanguageinvoker>true</reuselanguageinvoker>
+    </extension>
+</addon>
