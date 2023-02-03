@@ -28,7 +28,7 @@
 			<reuselanguageinvoker>true</reuselanguageinvoker>
 		</extension>
 	</addon>	
-	<addon id="plugin.video.upc2" name="upc2" version="1.2" provider-name="lg">
+	<addon id="plugin.video.upc2" name="upc2" version="1.3" provider-name="lg">
 		<requires>
 			<import addon="script.module.requests" />
 			<import addon="script.module.inputstreamhelper" />
@@ -149,6 +149,110 @@
 			<summary lang="en">WP WIDEO</summary>
 			<description lang="en">WP WIDEO</description>
 			<disclaimer lang="en">WP WIDEO
+			</disclaimer>
+			<language>pl</language>
+			<platform>all</platform>
+			<license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
+			<website></website>
+			<assets>
+				<icon>icon.png</icon>
+			</assets>
+			<reuselanguageinvoker>true</reuselanguageinvoker>
+		</extension>
+	</addon>
+	<addon id="plugin.video.toya_go" name="TOYA GO" version="1.0.0" provider-name="lg">
+		<requires>
+			<import addon="script.module.requests" />
+			<import addon="script.module.inputstreamhelper" />
+
+		</requires>
+		<extension point="xbmc.python.pluginsource" library="addon.py">
+			<provides>video</provides>
+		</extension>
+		<extension point="xbmc.addon.metadata">
+			<description lang="pl">toya_go</description>
+			<disclaimer lang="pl">toya_go
+			</disclaimer>
+			<summary lang="en">toya_go</summary>
+			<description lang="en">toya_go</description>
+			<disclaimer lang="en">toya_go
+			</disclaimer>
+			<language>pl</language>
+			<platform>all</platform>
+			<license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
+			<website></website>
+			<assets>
+				<icon>icon.png</icon>
+			</assets>
+			<reuselanguageinvoker>true</reuselanguageinvoker>
+		</extension>
+	</addon>
+	<addon id="plugin.audio.eurozet" name="Eurozet Radio" version="1.0.0" provider-name="lg">
+		<requires>
+			<import addon="script.module.requests" />
+		</requires>
+		<extension point="xbmc.python.pluginsource" library="addon.py">
+			<provides>audio</provides>
+		</extension>
+		<extension point="xbmc.addon.metadata">
+			<description lang="pl">Eurozet Radio</description>
+			<disclaimer lang="pl">Eurozet Radio
+			</disclaimer>
+			<summary lang="en">Eurozet Radio</summary>
+			<description lang="en">Eurozet Radio</description>
+			<disclaimer lang="en">Eurozet Radio
+			</disclaimer>
+			<language>pl</language>
+			<platform>all</platform>
+			<license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
+			<website></website>
+			<assets>
+				<icon>icon.png</icon>
+			</assets>
+			<reuselanguageinvoker>true</reuselanguageinvoker>
+		</extension>
+	</addon>
+	<addon id="plugin.audio.moje_pr" name="Moje PolskieRadio" version="1.0.0" provider-name="lg">
+		<requires>
+			<import addon="script.module.requests" />
+			<import addon="script.module.inputstreamhelper" />
+		</requires>
+		<extension point="xbmc.python.pluginsource" library="addon.py">
+			<provides>audio</provides>
+		</extension>
+		<extension point="xbmc.addon.metadata">
+			<description lang="pl">Moje PolskieRadio</description>
+			<disclaimer lang="pl">Moje PolskieRadio
+			</disclaimer>
+			<summary lang="en">Moje PolskieRadio</summary>
+			<description lang="en">Moje PolskieRadio</description>
+			<disclaimer lang="en">Moje PolskieRadio
+			</disclaimer>
+			<language>pl</language>
+			<platform>all</platform>
+			<license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
+			<website></website>
+			<assets>
+				<icon>icon.png</icon>
+			</assets>
+			<reuselanguageinvoker>true</reuselanguageinvoker>
+		</extension>
+	</addon>
+	<addon id="plugin.audio.rmfon" name="RMF ON" version="1.0.0" provider-name="lg">
+		<requires>
+			<import addon="script.module.requests" />
+			<import addon="service.cronxbmc" optional="true"/>
+		</requires>
+		<extension point="xbmc.python.pluginsource" library="addon.py">
+			<provides>audio</provides>
+		</extension>
+		<extension point="xbmc.addon.metadata">
+			<description lang="pl">RMF ON</description>
+			<disclaimer lang="pl">RMF ON
+			</disclaimer>
+			<summary lang="en">RMF ON</summary>
+			<description lang="en">RMF ON</description>
+			<disclaimer lang="en">RMF ON
 			</disclaimer>
 			<language>pl</language>
 			<platform>all</platform>
