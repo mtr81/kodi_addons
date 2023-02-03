@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<addon id="plugin.audio.eurozet" name="Eurozet Radio" version="1.0.0" provider-name="lg">
+    <requires>
+        <import addon="script.module.requests" />
+    </requires>
+    <extension point="xbmc.python.pluginsource" library="addon.py">
+        <provides>audio</provides>
+    </extension>
+ 	<extension point="xbmc.addon.metadata">
+        <description lang="pl">Eurozet Radio</description>
+        <disclaimer lang="pl">Eurozet Radio
+        </disclaimer>
+        <summary lang="en">Eurozet Radio</summary>
+        <description lang="en">Eurozet Radio</description>
+        <disclaimer lang="en">Eurozet Radio
+        </disclaimer>
+        <language>pl</language>
+        <platform>all</platform>
+        <license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
+        <website></website>
+        <assets>
+            <icon>icon.png</icon>
+        </assets>
+        <reuselanguageinvoker>true</reuselanguageinvoker>
+    </extension>
+</addon>
