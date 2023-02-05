@@ -83,7 +83,7 @@
 	<addon id="plugin.video.onet" name="ONET VIDEO" version="1.0.1" provider-name="lg">
 		<requires>
 			<import addon="script.module.requests" />
-			<import addon="service.cronxbmc" optional="true"/>
+			<import addon="script.module.inputstreamhelper" />
 		</requires>
 		<extension point="xbmc.python.pluginsource" library="addon.py">
 			<provides>video</provides>
