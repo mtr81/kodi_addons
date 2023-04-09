@@ -1,28 +1,26 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
-<addon id="plugin.video.TVP_VOD" name="TVP_VOD" version="1.1.4" provider-name="lg">
+<addon id="plugin.video.wppilot" name="Pilot WP" version="1.0.0" provider-name="lg">
     <requires>
         <import addon="script.module.requests" />
         <import addon="script.module.inputstreamhelper" />
-	<import addon="script.module.ttml2ssa"/>
     </requires>
     <extension point="xbmc.python.pluginsource" library="addon.py">
         <provides>video</provides>
     </extension>
- 	<extension point="xbmc.addon.metadata">
-        <description lang="pl">TVP_VOD</description>
-        <disclaimer lang="pl">TVP_VOD
+	<extension point="xbmc.addon.metadata">
+        <description lang="pl">Pilot WP</description>
+        <disclaimer lang="pl">Pilot WP
         </disclaimer>
-        <summary lang="en">TVP_VOD</summary>
-        <description lang="en">TVP_VOD</description>
-        <disclaimer lang="en">TVP_VOD
+        <summary lang="en">Pilot WP</summary>
+        <description lang="en">Pilot WP</description>
+        <disclaimer lang="en">Pilot WP
         </disclaimer>
         <language>pl</language>
         <platform>all</platform>
         <license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
         <website></website>
         <assets>
-            <icon>resources/images/icon.png</icon>
-			<fanart>resources/images/fanart.jpg</fanart>
+            <icon>icon.png</icon>
         </assets>
         <reuselanguageinvoker>true</reuselanguageinvoker>
     </extension>

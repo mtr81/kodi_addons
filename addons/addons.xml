@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <addons>
-	<addon id="plugin.video.TVP_VOD" name="TVP_VOD" version="1.1.3" provider-name="lg">
+	<addon id="plugin.video.TVP_VOD" name="TVP_VOD" version="1.1.4" provider-name="lg">
 		<requires>
 			<import addon="script.module.requests" />
 			<import addon="script.module.inputstreamhelper" />
@@ -264,7 +264,7 @@
 			<reuselanguageinvoker>true</reuselanguageinvoker>
 		</extension>
 	</addon>
-	<addon id="plugin.video.vod_pl" name="VODpl" version="1.0.2" provider-name="lg">
+	<addon id="plugin.video.vod_pl" name="VODpl" version="1.0.3" provider-name="lg">
 		<requires>
 			<import addon="script.module.requests" />
 			<import addon="script.module.inputstreamhelper" />
@@ -279,6 +279,32 @@
 			<summary lang="en">VODpl</summary>
 			<description lang="en">VODpl</description>
 			<disclaimer lang="en">VODpl
+			</disclaimer>
+			<language>pl</language>
+			<platform>all</platform>
+			<license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
+			<website></website>
+			<assets>
+				<icon>icon.png</icon>
+			</assets>
+			<reuselanguageinvoker>true</reuselanguageinvoker>
+		</extension>
+	</addon>
+	<addon id="plugin.video.wppilot" name="Pilot WP" version="1.0.0" provider-name="lg">
+		<requires>
+			<import addon="script.module.requests" />
+			<import addon="script.module.inputstreamhelper" />
+		</requires>
+		<extension point="xbmc.python.pluginsource" library="addon.py">
+			<provides>video</provides>
+		</extension>
+		<extension point="xbmc.addon.metadata">
+			<description lang="pl">Pilot WP</description>
+			<disclaimer lang="pl">Pilot WP
+			</disclaimer>
+			<summary lang="en">Pilot WP</summary>
+			<description lang="en">Pilot WP</description>
+			<disclaimer lang="en">Pilot WP
 			</disclaimer>
 			<language>pl</language>
 			<platform>all</platform>
