@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <addons>
-	<addon id="plugin.video.TVP_VOD" name="TVP_VOD" version="1.1.5" provider-name="lg">
+	<addon id="plugin.video.TVP_VOD" name="TVP_VOD" version="1.1.6" provider-name="lg">
 		<requires>
 			<import addon="script.module.requests" />
 			<import addon="script.module.inputstreamhelper" />
@@ -28,7 +28,7 @@
 			<reuselanguageinvoker>true</reuselanguageinvoker>
 		</extension>
 	</addon>	
-	<addon id="plugin.video.upc2" name="upc2" version="1.3" provider-name="lg">
+	<addon id="plugin.video.upc2" name="upc2" version="1.4" provider-name="lg">
 		<requires>
 			<import addon="script.module.requests" />
 			<import addon="script.module.inputstreamhelper" />
@@ -80,7 +80,7 @@
 			<reuselanguageinvoker>true</reuselanguageinvoker>
 		</extension>
 	</addon>
-	<addon id="plugin.video.onet" name="ONET VIDEO" version="1.0.2" provider-name="lg">
+	<addon id="plugin.video.onet" name="ONET VIDEO" version="1.0.3" provider-name="lg">
 		<requires>
 			<import addon="script.module.requests" />
 			<import addon="script.module.inputstreamhelper" />
@@ -106,7 +106,7 @@
 			<reuselanguageinvoker>true</reuselanguageinvoker>
 		</extension>
 	</addon>
-	<addon id="plugin.video.polsat_news" name="POLSAT News" version="1.0.0" provider-name="lg">
+	<addon id="plugin.video.polsat_news" name="POLSAT News" version="1.0.1" provider-name="lg">
 		<requires>
 			<import addon="script.module.requests" />
 			<import addon="service.cronxbmc" optional="true"/>
@@ -133,7 +133,7 @@
 			<reuselanguageinvoker>true</reuselanguageinvoker>
 		</extension>
 	</addon>
-	<addon id="plugin.video.wp" name="WP WIDEO" version="1.0.0" provider-name="lg">
+	<addon id="plugin.video.wp" name="WP WIDEO" version="1.0.1" provider-name="lg">
 		<requires>
 			<import addon="script.module.requests" />
 			<import addon="service.cronxbmc" optional="true"/>
@@ -160,7 +160,7 @@
 			<reuselanguageinvoker>true</reuselanguageinvoker>
 		</extension>
 	</addon>
-	<addon id="plugin.video.toya_go" name="TOYA GO" version="1.0.0" provider-name="lg">
+	<addon id="plugin.video.toya_go" name="TOYA GO" version="1.0.1" provider-name="lg">
 		<requires>
 			<import addon="script.module.requests" />
 			<import addon="script.module.inputstreamhelper" />
@@ -264,7 +264,7 @@
 			<reuselanguageinvoker>true</reuselanguageinvoker>
 		</extension>
 	</addon>
-	<addon id="plugin.video.vod_pl" name="VODpl" version="1.0.4" provider-name="lg">
+	<addon id="plugin.video.vod_pl" name="VODpl" version="1.0.5" provider-name="lg">
 		<requires>
 			<import addon="script.module.requests" />
 			<import addon="script.module.inputstreamhelper" />
@@ -290,7 +290,7 @@
 			<reuselanguageinvoker>true</reuselanguageinvoker>
 		</extension>
 	</addon>
-	<addon id="plugin.video.wppilot" name="Pilot WP" version="1.0.2" provider-name="lg">
+	<addon id="plugin.video.wppilot" name="Pilot WP" version="1.0.3" provider-name="lg">
 		<requires>
 			<import addon="script.module.requests" />
 			<import addon="script.module.inputstreamhelper" />
