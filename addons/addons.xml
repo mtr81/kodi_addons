@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <addons>
-	<addon id="plugin.video.TVP_VOD" name="TVP_VOD" version="1.1.9" provider-name="lg">
+	<addon id="plugin.video.TVP_VOD" name="TVP_VOD" version="1.1.10" provider-name="lg">
 		<requires>
 			<import addon="script.module.requests" />
 			<import addon="script.module.inputstreamhelper" />
@@ -9,6 +9,7 @@
 		<extension point="xbmc.python.pluginsource" library="addon.py">
 			<provides>video</provides>
 		</extension>
+		<extension point="xbmc.service" library="service_entry.py" />
 		<extension point="xbmc.addon.metadata">
 			<description lang="pl">TVP_VOD</description>
 			<disclaimer lang="pl">TVP_VOD
