@@ -1,19 +1,20 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
-<addon id="plugin.video.polsat_news" name="POLSAT News" version="1.0.3" provider-name="lg">
+<addon id="plugin.video.polsatbox_go" name="PolsatBoxGO" version="1.0.3" provider-name="lg">
     <requires>
-        <import addon="script.module.requests" />
-	<import addon="script.module.inputstreamhelper" />
+        <import addon="xbmc.python" version="3.0.0"/>
+        <import addon="script.module.requests"/>
+        <import addon="script.module.inputstreamhelper" />
     </requires>
     <extension point="xbmc.python.pluginsource" library="addon.py">
         <provides>video</provides>
     </extension>
- 	<extension point="xbmc.addon.metadata">
-        <description lang="pl">POLSAT News</description>
-        <disclaimer lang="pl">POLSAT News
+    <extension point="xbmc.addon.metadata">
+        <description lang="pl">PolsatBox Go</description>
+        <disclaimer lang="pl">PolsatBox Go
         </disclaimer>
-        <summary lang="en">POLSAT News</summary>
-        <description lang="en">POLSAT News</description>
-        <disclaimer lang="en">POLSAT News
+        <summary lang="en">PolsatBox Go</summary>
+        <description lang="en">PolsatBox Go</description>
+        <disclaimer lang="en">PolsatBox Go
         </disclaimer>
         <language>pl</language>
         <platform>all</platform>

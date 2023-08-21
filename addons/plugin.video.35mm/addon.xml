@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
-<addon id="plugin.video.polsat_news" name="POLSAT News" version="1.0.3" provider-name="lg">
+<addon id="plugin.video.35mm" name="35mm.online" version="1.0.3" provider-name="lg">
     <requires>
         <import addon="script.module.requests" />
-	<import addon="script.module.inputstreamhelper" />
+        <import addon="script.module.inputstreamhelper" />
     </requires>
     <extension point="xbmc.python.pluginsource" library="addon.py">
         <provides>video</provides>
     </extension>
- 	<extension point="xbmc.addon.metadata">
-        <description lang="pl">POLSAT News</description>
-        <disclaimer lang="pl">POLSAT News
+	<extension point="xbmc.addon.metadata">
+        <description lang="pl">35mm.online</description>
+        <disclaimer lang="pl">35mm.online
         </disclaimer>
-        <summary lang="en">POLSAT News</summary>
-        <description lang="en">POLSAT News</description>
-        <disclaimer lang="en">POLSAT News
+        <summary lang="en">35mm.online</summary>
+        <description lang="en">35mm.online</description>
+        <disclaimer lang="en">35mm.online
         </disclaimer>
         <language>pl</language>
         <platform>all</platform>
