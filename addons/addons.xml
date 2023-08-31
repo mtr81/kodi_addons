@@ -56,31 +56,6 @@
 			<reuselanguageinvoker>true</reuselanguageinvoker>
 		</extension>
 	</addon>
-	<addon id="plugin.video.polsatgo_hbb" name="polsatgo_hbb" version="1.0.1" provider-name="lg">
-		<requires>
-			<import addon="script.module.requests" />
-		</requires>
-		<extension point="xbmc.python.pluginsource" library="addon.py">
-			<provides>video</provides>
-		</extension>
-		<extension point="xbmc.addon.metadata">
-			<description lang="pl">polsatgo hbb</description>
-			<disclaimer lang="pl">polsatgo hbb
-			</disclaimer>
-			<summary lang="en">polsatgo hbb</summary>
-			<description lang="en">polsatgo hbb</description>
-			<disclaimer lang="en">polsatgo hbb
-			</disclaimer>
-			<language>pl</language>
-			<platform>all</platform>
-			<license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
-			<website></website>
-			<assets>
-				<icon>icon.png</icon>
-			</assets>
-			<reuselanguageinvoker>true</reuselanguageinvoker>
-		</extension>
-	</addon>
 	<addon id="plugin.video.onet" name="ONET VIDEO" version="1.0.3" provider-name="lg">
 		<requires>
 			<import addon="script.module.requests" />
@@ -212,7 +187,7 @@
 			<reuselanguageinvoker>true</reuselanguageinvoker>
 		</extension>
 	</addon>
-	<addon id="plugin.audio.moje_pr" name="Moje PolskieRadio" version="1.0.0" provider-name="lg">
+	<addon id="plugin.audio.moje_pr" name="Moje PolskieRadio" version="1.0.1" provider-name="lg">
 		<requires>
 			<import addon="script.module.requests" />
 			<import addon="script.module.inputstreamhelper" />
@@ -462,6 +437,31 @@
 			<summary lang="en">PolsatBox Go</summary>
 			<description lang="en">PolsatBox Go</description>
 			<disclaimer lang="en">PolsatBox Go
+			</disclaimer>
+			<language>pl</language>
+			<platform>all</platform>
+			<license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
+			<website></website>
+			<assets>
+				<icon>icon.png</icon>
+			</assets>
+			<reuselanguageinvoker>true</reuselanguageinvoker>
+		</extension>
+	</addon>
+	<addon id="plugin.video.se" name="SuperExpress video" version="1.0.0" provider-name="lg">
+		<requires>
+			<import addon="script.module.requests" />
+		</requires>
+		<extension point="xbmc.python.pluginsource" library="addon.py">
+			<provides>video</provides>
+		</extension>
+		<extension point="xbmc.addon.metadata">
+			<description lang="pl">SuperExpress video</description>
+			<disclaimer lang="pl">SuperExpress video
+			</disclaimer>
+			<summary lang="en">ONET VIDEO</summary>
+			<description lang="en">SuperExpress video</description>
+			<disclaimer lang="en">SuperExpress video
 			</disclaimer>
 			<language>pl</language>
 			<platform>all</platform>

@@ -1,19 +1,18 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
-<addon id="plugin.audio.moje_pr" name="Moje PolskieRadio" version="1.0.1" provider-name="lg">
+<addon id="plugin.video.se" name="SuperExpress video" version="1.0.0" provider-name="lg">
     <requires>
         <import addon="script.module.requests" />
-	<import addon="script.module.inputstreamhelper" />
     </requires>
     <extension point="xbmc.python.pluginsource" library="addon.py">
-        <provides>audio</provides>
+        <provides>video</provides>
     </extension>
  	<extension point="xbmc.addon.metadata">
-        <description lang="pl">Moje PolskieRadio</description>
-        <disclaimer lang="pl">Moje PolskieRadio
+        <description lang="pl">SuperExpress video</description>
+        <disclaimer lang="pl">SuperExpress video
         </disclaimer>
-        <summary lang="en">Moje PolskieRadio</summary>
-        <description lang="en">Moje PolskieRadio</description>
-        <disclaimer lang="en">Moje PolskieRadio
+        <summary lang="en">ONET VIDEO</summary>
+        <description lang="en">SuperExpress video</description>
+        <disclaimer lang="en">SuperExpress video
         </disclaimer>
         <language>pl</language>
         <platform>all</platform>
