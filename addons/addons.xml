@@ -82,7 +82,7 @@
 			<reuselanguageinvoker>true</reuselanguageinvoker>
 		</extension>
 	</addon>
-	<addon id="plugin.video.polsat_news" name="POLSAT News" version="1.0.4" provider-name="lg">
+	<addon id="plugin.video.polsat_news" name="POLSAT News&Sport" version="1.0.5" provider-name="lg">
 		<requires>
 			<import addon="script.module.requests" />
 			<import addon="script.module.inputstreamhelper" />
@@ -91,12 +91,12 @@
 			<provides>video</provides>
 		</extension>
 		<extension point="xbmc.addon.metadata">
-			<description lang="pl">POLSAT News</description>
-			<disclaimer lang="pl">POLSAT News
+			<description lang="pl">POLSAT News&Sport</description>
+			<disclaimer lang="pl">POLSAT News&Sport
 			</disclaimer>
 			<summary lang="en">POLSAT News</summary>
-			<description lang="en">POLSAT News</description>
-			<disclaimer lang="en">POLSAT News
+			<description lang="en">POLSAT News&Sport</description>
+			<disclaimer lang="en">POLSAT News&Sport
 			</disclaimer>
 			<language>pl</language>
 			<platform>all</platform>
