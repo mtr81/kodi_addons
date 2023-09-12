@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<addon id="plugin.video.interia_tv" name="Interia.tv" version="1.0.0" provider-name="lg">
+    <requires>
+		<import addon="script.module.requests" />
+		<import addon="script.module.inputstreamhelper" />
+    </requires>
+    <extension point="xbmc.python.pluginsource" library="addon.py">
+        <provides>video</provides>
+    </extension>
+ 	<extension point="xbmc.addon.metadata">
+        <description lang="pl">Interia.tv</description>
+        <disclaimer lang="pl">Interia.tv
+        </disclaimer>
+        <summary lang="en">Interia.tv</summary>
+        <description lang="en">Interia.tv</description>
+        <disclaimer lang="en">Interia.tv
+        </disclaimer>
+        <language>pl</language>
+        <platform>all</platform>
+        <license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
+        <website></website>
+        <assets>
+            <icon>icon.png</icon>
+        </assets>
+        <reuselanguageinvoker>true</reuselanguageinvoker>
+    </extension>
+</addon>
