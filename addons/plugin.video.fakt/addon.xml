@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
-<addon id="plugin.video.onet" name="ONET VIDEO" version="1.0.4" provider-name="lg">
+<addon id="plugin.video.fakt" name="FAKT" version="1.0.0" provider-name="lg">
     <requires>
-        <import addon="script.module.requests" />
-        <import addon="script.module.inputstreamhelper" />
+		<import addon="script.module.requests" />
+		<import addon="script.module.inputstreamhelper" />
     </requires>
     <extension point="xbmc.python.pluginsource" library="addon.py">
         <provides>video</provides>
     </extension>
  	<extension point="xbmc.addon.metadata">
-        <description lang="pl">ONET VIDEO</description>
-        <disclaimer lang="pl">ONET VIDEO
+        <description lang="pl">FAKT</description>
+        <disclaimer lang="pl">FAKT
         </disclaimer>
-        <summary lang="en">ONET VIDEO</summary>
-        <description lang="en">ONET VIDEO</description>
-        <disclaimer lang="en">ONET VIDEO
+        <summary lang="en">FAKT</summary>
+        <description lang="en">FAKT</description>
+        <disclaimer lang="en">FAKT
         </disclaimer>
         <language>pl</language>
         <platform>all</platform>
