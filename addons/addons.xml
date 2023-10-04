@@ -108,22 +108,21 @@
 			<reuselanguageinvoker>true</reuselanguageinvoker>
 		</extension>
 	</addon>
-	<addon id="plugin.video.wp" name="WP WIDEO" version="1.0.1" provider-name="lg">
+	<addon id="plugin.video.wp" name="WP" version="1.0.2" provider-name="lg">
 		<requires>
 			<import addon="script.module.requests" />
-			<import addon="service.cronxbmc" optional="true"/>
 			<import addon="script.module.inputstreamhelper" />
 		</requires>
 		<extension point="xbmc.python.pluginsource" library="addon.py">
 			<provides>video</provides>
 		</extension>
 		<extension point="xbmc.addon.metadata">
-			<description lang="pl">WP WIDEO</description>
-			<disclaimer lang="pl">WP WIDEO
+			<description lang="pl">WP</description>
+			<disclaimer lang="pl">WP
 			</disclaimer>
-			<summary lang="en">WP WIDEO</summary>
-			<description lang="en">WP WIDEO</description>
-			<disclaimer lang="en">WP WIDEO
+			<summary lang="en">WP</summary>
+			<description lang="en">WP</description>
+			<disclaimer lang="en">WP
 			</disclaimer>
 			<language>pl</language>
 			<platform>all</platform>
@@ -567,6 +566,32 @@
 			<summary lang="en">JAMBOX GO</summary>
 			<description lang="en">JAMBOX GO</description>
 			<disclaimer lang="en">JAMBOX GO
+			</disclaimer>
+			<language>pl</language>
+			<platform>all</platform>
+			<license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
+			<website></website>
+			<assets>
+				<icon>icon.png</icon>
+			</assets>
+			<reuselanguageinvoker>true</reuselanguageinvoker>
+		</extension>
+	</addon>
+	<addon id="plugin.video.playpuls" name="Play PULS" version="1.0.0" provider-name="lg">
+		<requires>
+			<import addon="script.module.requests" />
+			<import addon="script.module.inputstreamhelper" />
+		</requires>
+		<extension point="xbmc.python.pluginsource" library="addon.py">
+			<provides>video</provides>
+		</extension>
+		<extension point="xbmc.addon.metadata">
+			<description lang="pl">Play PULS</description>
+			<disclaimer lang="pl">Play PULS
+			</disclaimer>
+			<summary lang="en">Play PULS</summary>
+			<description lang="en">Play PULS</description>
+			<disclaimer lang="en">Play PULS
 			</disclaimer>
 			<language>pl</language>
 			<platform>all</platform>
