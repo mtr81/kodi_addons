@@ -1,29 +1,27 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
-<addon id="plugin.video.TVP_VOD" name="TVP_VOD" version="1.1.26" provider-name="lg">
+<addon id="plugin.video.filmbox" name="FilmBox" version="1.0.0" provider-name="lg">
     <requires>
         <import addon="script.module.requests" />
         <import addon="script.module.inputstreamhelper" />
-	<import addon="script.module.ttml2ssa"/>
     </requires>
     <extension point="xbmc.python.pluginsource" library="addon.py">
         <provides>video</provides>
     </extension>
 	<extension point="xbmc.service" library="service_entry.py" />
- 	<extension point="xbmc.addon.metadata">
-        <description lang="pl">TVP_VOD</description>
-        <disclaimer lang="pl">TVP_VOD
+	<extension point="xbmc.addon.metadata">
+        <description lang="pl">W Kodi 19 napisy w tej wtyczce nie są obsługiwane.</description>
+        <disclaimer lang="pl">FilmBox +
         </disclaimer>
-        <summary lang="en">TVP_VOD</summary>
-        <description lang="en">TVP_VOD</description>
-        <disclaimer lang="en">TVP_VOD
+        <summary lang="en">FilmBox +</summary>
+        <description lang="en">FilmBox +</description>
+        <disclaimer lang="en">FilmBox +
         </disclaimer>
         <language>pl</language>
         <platform>all</platform>
         <license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
         <website></website>
         <assets>
-            <icon>resources/images/icon.png</icon>
-			<fanart>resources/images/fanart.jpg</fanart>
+            <icon>icon.png</icon>
         </assets>
         <reuselanguageinvoker>true</reuselanguageinvoker>
     </extension>
