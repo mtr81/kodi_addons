@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<addon id="plugin.video.mubi" name="MUBI" version="1.0.0" provider-name="lg">
+    <requires>
+        <import addon="script.module.requests" />
+        <import addon="script.module.inputstreamhelper" />
+    </requires>
+    <extension point="xbmc.python.pluginsource" library="addon.py">
+        <provides>video</provides>
+    </extension>
+	<extension point="xbmc.addon.metadata">
+        <description lang="pl">MUBI</description>
+        <disclaimer lang="pl">MUBI
+        </disclaimer>
+        <summary lang="en">MUBI +</summary>
+        <description lang="en">MUBI</description>
+        <disclaimer lang="en">MUBI
+        </disclaimer>
+        <language>pl</language>
+        <platform>all</platform>
+        <license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
+        <website></website>
+        <assets>
+            <icon>icon.png</icon>
+        </assets>
+        <reuselanguageinvoker>true</reuselanguageinvoker>
+    </extension>
+</addon>

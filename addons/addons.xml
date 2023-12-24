@@ -630,6 +630,110 @@
 			<reuselanguageinvoker>true</reuselanguageinvoker>
 		</extension>
 	</addon>
+	<addon id="plugin.video.mubi" name="MUBI" version="1.0.0" provider-name="lg">
+		<requires>
+			<import addon="script.module.requests" />
+			<import addon="script.module.inputstreamhelper" />
+		</requires>
+		<extension point="xbmc.python.pluginsource" library="addon.py">
+			<provides>video</provides>
+		</extension>
+		<extension point="xbmc.addon.metadata">
+			<description lang="pl">MUBI</description>
+			<disclaimer lang="pl">MUBI
+			</disclaimer>
+			<summary lang="en">MUBI +</summary>
+			<description lang="en">MUBI</description>
+			<disclaimer lang="en">MUBI
+			</disclaimer>
+			<language>pl</language>
+			<platform>all</platform>
+			<license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
+			<website></website>
+			<assets>
+				<icon>icon.png</icon>
+			</assets>
+			<reuselanguageinvoker>true</reuselanguageinvoker>
+		</extension>
+	</addon>
+	<addon id="plugin.video.parlament" name="Parlament" version="1.0.0" provider-name="lg">
+		<requires>
+			<import addon="script.module.requests" />
+			<import addon="script.module.inputstreamhelper" />
+		</requires>
+		<extension point="xbmc.python.pluginsource" library="addon.py">
+			<provides>video</provides>
+		</extension>
+		<extension point="xbmc.addon.metadata">
+			<description lang="pl">parlament</description>
+			<disclaimer lang="pl">parlament
+			</disclaimer>
+			<summary lang="en">parlament</summary>
+			<description lang="en">parlament</description>
+			<disclaimer lang="en">parlament
+			</disclaimer>
+			<language>pl</language>
+			<platform>all</platform>
+			<license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
+			<website></website>
+			<assets>
+				<icon>icon.png</icon>
+			</assets>
+			<reuselanguageinvoker>true</reuselanguageinvoker>
+		</extension>
+	</addon>
+	<addon id="plugin.video.tbn" name="TBN Polska" version="1.0.0" provider-name="lg">
+		<requires>
+			<import addon="script.module.requests" />
+			<import addon="script.module.inputstreamhelper" />
+		</requires>
+		<extension point="xbmc.python.pluginsource" library="addon.py">
+			<provides>video</provides>
+		</extension>
+		<extension point="xbmc.addon.metadata">
+			<description lang="pl">TBN Polska</description>
+			<disclaimer lang="pl">TBN Polska
+			</disclaimer>
+			<summary lang="en">TBN Polska</summary>
+			<description lang="en">TBN Polska</description>
+			<disclaimer lang="en">TBN Polska
+			</disclaimer>
+			<language>pl</language>
+			<platform>all</platform>
+			<license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
+			<website></website>
+			<assets>
+				<icon>icon.png</icon>
+			</assets>
+			<reuselanguageinvoker>true</reuselanguageinvoker>
+		</extension>
+	</addon>
+	<addon id="plugin.video.trwam" name="TV TRWAM" version="1.0.0" provider-name="lg">
+		<requires>
+			<import addon="script.module.requests" />
+			<import addon="script.module.inputstreamhelper" />
+		</requires>
+		<extension point="xbmc.python.pluginsource" library="addon.py">
+			<provides>video</provides>
+		</extension>
+		<extension point="xbmc.addon.metadata">
+			<description lang="pl">TV TRWAM, EWTN Polska, TV Republika, wPolsce</description>
+			<disclaimer lang="pl">TV TRWAM
+			</disclaimer>
+			<summary lang="en">TV TRWAM</summary>
+			<description lang="en">TV TRWAM, EWTN Polska, TV Republika, wPolsce</description>
+			<disclaimer lang="en">TV TRWAM
+			</disclaimer>
+			<language>pl</language>
+			<platform>all</platform>
+			<license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
+			<website></website>
+			<assets>
+				<icon>icon.png</icon>
+			</assets>
+			<reuselanguageinvoker>true</reuselanguageinvoker>
+		</extension>
+	</addon>
 	<addon id="script.module.ttml2ssa"
 			name="Improved Subtitles"
 			version="0.3.7"
