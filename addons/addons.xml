@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <addons>
-	<addon id="plugin.video.TVP_VOD" name="TVP_VOD" version="1.1.27" provider-name="lg">
+	<addon id="plugin.video.TVP_VOD" name="TVP_VOD" version="1.1.28" provider-name="lg">
 		<requires>
 			<import addon="script.module.requests" />
 			<import addon="script.module.inputstreamhelper" />
@@ -238,7 +238,7 @@
 			<reuselanguageinvoker>true</reuselanguageinvoker>
 		</extension>
 	</addon>
-	<addon id="plugin.video.vod_pl" name="VODpl" version="1.0.13" provider-name="lg">
+	<addon id="plugin.video.vod_pl" name="VODpl" version="1.0.14" provider-name="lg">
 		<requires>
 			<import addon="script.module.requests" />
 			<import addon="script.module.inputstreamhelper" />
@@ -734,7 +734,7 @@
 			<reuselanguageinvoker>true</reuselanguageinvoker>
 		</extension>
 	</addon>
-	<addon id="plugin.video.polsatbox_go_atv" name="PolsatBox GO" version="1.0.0" provider-name="lg">
+	<addon id="plugin.video.polsatbox_go_atv" name="PolsatBoxGO 4K" version="1.0.1" provider-name="lg">
 		<requires>
 			<import addon="xbmc.python" version="3.0.0"/>
 			<import addon="script.module.requests"/>
@@ -744,12 +744,12 @@
 			<provides>video</provides>
 		</extension>
 		<extension point="xbmc.addon.metadata">
-			<description lang="pl">PolsatBox Go</description>
-			<disclaimer lang="pl">PolsatBox Go
+			<description lang="pl">PolsatBox Go 4K</description>
+			<disclaimer lang="pl">PolsatBox Go 4K
 			</disclaimer>
-			<summary lang="en">PolsatBox Go</summary>
-			<description lang="en">PolsatBox Go</description>
-			<disclaimer lang="en">PolsatBox Go
+			<summary lang="en">PolsatBox Go 4K</summary>
+			<description lang="en">PolsatBox Go 4K</description>
+			<disclaimer lang="en">PolsatBox Go 4K
 			</disclaimer>
 			<language>pl</language>
 			<platform>all</platform>
