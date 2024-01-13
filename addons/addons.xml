@@ -29,10 +29,11 @@
 			<reuselanguageinvoker>true</reuselanguageinvoker>
 		</extension>
 	</addon>	
-	<addon id="plugin.video.upc2" name="upc2" version="1.5" provider-name="lg">
+	<addon id="plugin.video.upcgo" name="UPC GO" version="1.0.0" provider-name="lg">
 		<requires>
 			<import addon="script.module.requests" />
 			<import addon="script.module.inputstreamhelper" />
+		
 		</requires>
 		<extension point="xbmc.python.pluginsource" library="addon.py">
 			<provides>video</provides>
@@ -290,7 +291,7 @@
 			<reuselanguageinvoker>true</reuselanguageinvoker>
 		</extension>
 	</addon>
-	<addon id="plugin.video.megogo" name="Megogo Bezpłatna TV" version="1.0.7" provider-name="lg">
+	<addon id="plugin.video.megogo" name="Megogo Bezpłatna TV" version="1.0.8" provider-name="lg">
 		<requires>
 			<import addon="script.module.requests" />
 			<import addon="script.module.inputstreamhelper" />
@@ -761,9 +762,87 @@
 			<reuselanguageinvoker>true</reuselanguageinvoker>
 		</extension>
 	</addon>
+	<addon id="plugin.audio.mytuner" name="myTuner" version="1.0.0" provider-name="lg">
+		<requires>
+			<import addon="script.module.requests" />
+		<import addon="script.module.inputstreamhelper" />
+		</requires>
+		<extension point="xbmc.python.pluginsource" library="addon.py">
+			<provides>audio</provides>
+		</extension>
+		<extension point="xbmc.addon.metadata">
+			<description lang="pl">myTuner</description>
+			<disclaimer lang="pl">myTuner
+			</disclaimer>
+			<summary lang="en">myTuner</summary>
+			<description lang="en">myTuner</description>
+			<disclaimer lang="en">myTuner
+			</disclaimer>
+			<language>pl</language>
+			<platform>all</platform>
+			<license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
+			<website></website>
+			<assets>
+				<icon>icon.png</icon>
+			</assets>
+			<reuselanguageinvoker>true</reuselanguageinvoker>
+		</extension>
+	</addon>
+	<addon id="plugin.audio.zpr" name="ZPR Radio" version="1.0.0" provider-name="lg">
+		<requires>
+			<import addon="script.module.requests" />
+		<import addon="script.module.inputstreamhelper" />
+		</requires>
+		<extension point="xbmc.python.pluginsource" library="addon.py">
+			<provides>audio</provides>
+		</extension>
+		<extension point="xbmc.addon.metadata">
+			<description lang="pl">ZPR</description>
+			<disclaimer lang="pl">ZPR
+			</disclaimer>
+			<summary lang="en">ZPR</summary>
+			<description lang="en">ZPR</description>
+			<disclaimer lang="en">ZPR
+			</disclaimer>
+			<language>pl</language>
+			<platform>all</platform>
+			<license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
+			<website></website>
+			<assets>
+				<icon>icon.png</icon>
+			</assets>
+			<reuselanguageinvoker>true</reuselanguageinvoker>
+		</extension>
+	</addon>
+	<addon id="plugin.video.adapterpl" name="Adapter PL" version="1.0.0" provider-name="lg">
+		<requires>
+			<import addon="script.module.requests" />
+			<import addon="script.module.inputstreamhelper" />
+		</requires>
+		<extension point="xbmc.python.pluginsource" library="addon.py">
+			<provides>video</provides>
+		</extension>
+		<extension point="xbmc.addon.metadata">
+			<description lang="pl">Adapter PL</description>
+			<disclaimer lang="pl">Adapter PL
+			</disclaimer>
+			<summary lang="en">Adapter PL</summary>
+			<description lang="en">Adapter PL</description>
+			<disclaimer lang="en">Adapter PL
+			</disclaimer>
+			<language>pl</language>
+			<platform>all</platform>
+			<license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
+			<website></website>
+			<assets>
+				<icon>icon.png</icon>
+			</assets>
+			<reuselanguageinvoker>true</reuselanguageinvoker>
+		</extension>
+	</addon>
 	<addon id="script.module.ttml2ssa"
 			name="Improved Subtitles"
-			version="0.3.7"
+			version="0.3.8"
 			provider-name="Paco8">
 		<requires>
 			<import addon="xbmc.python" version="3.0.0"/>

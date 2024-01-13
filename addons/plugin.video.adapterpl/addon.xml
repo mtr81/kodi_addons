@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
-<addon id="plugin.video.megogo" name="Megogo Bezpłatna TV" version="1.0.8" provider-name="lg">
+<addon id="plugin.video.adapterpl" name="Adapter PL" version="1.0.0" provider-name="lg">
     <requires>
         <import addon="script.module.requests" />
         <import addon="script.module.inputstreamhelper" />
@@ -7,13 +7,13 @@
     <extension point="xbmc.python.pluginsource" library="addon.py">
         <provides>video</provides>
     </extension>
- 	<extension point="xbmc.addon.metadata">
-        <description lang="pl">Megogo Bezpłatna TV</description>
-        <disclaimer lang="pl">Megogo Bezpłatna TV
+	<extension point="xbmc.addon.metadata">
+        <description lang="pl">Adapter PL</description>
+        <disclaimer lang="pl">Adapter PL
         </disclaimer>
-        <summary lang="en">Megogo Bezpłatna TV</summary>
-        <description lang="en">Megogo Bezpłatna TV</description>
-        <disclaimer lang="en">Megogo Bezpłatna TV
+        <summary lang="en">Adapter PL</summary>
+        <description lang="en">Adapter PL</description>
+        <disclaimer lang="en">Adapter PL
         </disclaimer>
         <language>pl</language>
         <platform>all</platform>
