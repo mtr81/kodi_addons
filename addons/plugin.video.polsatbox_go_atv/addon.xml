@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
-<addon id="plugin.video.polsatbox_go_atv" name="PolsatBoxGO 4K" version="1.0.3" provider-name="lg">
+<addon id="plugin.video.polsatbox_go_atv" name="PolsatBoxGO 4K" version="1.0.4" provider-name="lg">
     <requires>
         <import addon="xbmc.python" version="3.0.0"/>
         <import addon="script.module.requests"/>
