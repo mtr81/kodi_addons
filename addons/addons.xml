@@ -162,7 +162,7 @@
 			<reuselanguageinvoker>true</reuselanguageinvoker>
 		</extension>
 	</addon>
-	<addon id="plugin.audio.eurozet" name="Eurozet Radio" version="1.0.0" provider-name="lg">
+	<addon id="plugin.audio.eurozet" name="Eurozet Radio" version="1.0.1" provider-name="lg">
 		<requires>
 			<import addon="script.module.requests" />
 		</requires>
@@ -187,7 +187,7 @@
 			<reuselanguageinvoker>true</reuselanguageinvoker>
 		</extension>
 	</addon>
-	<addon id="plugin.audio.moje_pr" name="Moje PolskieRadio" version="1.0.2" provider-name="lg">
+	<addon id="plugin.audio.moje_pr" name="Moje PolskieRadio" version="1.0.3" provider-name="lg">
 		<requires>
 			<import addon="script.module.requests" />
 			<import addon="script.module.inputstreamhelper" />
@@ -213,7 +213,7 @@
 			<reuselanguageinvoker>true</reuselanguageinvoker>
 		</extension>
 	</addon>
-	<addon id="plugin.audio.rmfon" name="RMF ON" version="1.0.0" provider-name="lg">
+	<addon id="plugin.audio.rmfon" name="RMF ON" version="1.0.1" provider-name="lg">
 		<requires>
 			<import addon="script.module.requests" />
 			<import addon="service.cronxbmc" optional="true"/>
