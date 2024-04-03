@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
-<addon id="plugin.video.red_tv" name="RED TV" version="1.0.2" provider-name="lg">
+<addon id="plugin.video.red_tv" name="RED TV" version="1.0.3" provider-name="lg">
     <requires>
         <import addon="script.module.requests" />
         <import addon="script.module.inputstreamhelper" />
