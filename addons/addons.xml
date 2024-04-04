@@ -919,6 +919,32 @@
 			<reuselanguageinvoker>true</reuselanguageinvoker>
 		</extension>
 	</addon>
+	<addon id="plugin.video.tv_smart_go" name="TV SMART GO" version="1.0.0" provider-name="lg">
+		<requires>
+			<import addon="script.module.requests" />
+		<import addon="script.module.inputstreamhelper" />
+		</requires>
+		<extension point="xbmc.python.pluginsource" library="addon.py">
+			<provides>video</provides>
+		</extension>
+		<extension point="xbmc.addon.metadata">
+			<description lang="pl">TV SMART GO: Vectra, Multimedia, JAMBOX, Elsat, tvsmart.pl</description>
+			<disclaimer lang="pl">TV SMART GO
+			</disclaimer>
+			<summary lang="en">TV SMART GO</summary>
+			<description lang="en">TV SMART GO: Vectra, Multimedia, JAMBOX, Elsat, tvsmart.pl</description>
+			<disclaimer lang="en">TV SMART GO
+			</disclaimer>
+			<language>pl</language>
+			<platform>all</platform>
+			<license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
+			<website></website>
+			<assets>
+				<icon>icon.png</icon>
+			</assets>
+			<reuselanguageinvoker>true</reuselanguageinvoker>
+		</extension>
+	</addon>
 	<addon id="script.module.ttml2ssa"
 			name="Improved Subtitles"
 			version="0.3.8"
