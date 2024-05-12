@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <addons>
-	<addon id="plugin.video.TVP_VOD" name="TVP_VOD" version="1.2.5" provider-name="lg">
+	<addon id="plugin.video.TVP_VOD" name="TVP_VOD" version="1.2.6" provider-name="lg">
 		<requires>
 			<import addon="script.module.requests" />
 			<import addon="script.module.inputstreamhelper" />
@@ -23,8 +23,7 @@
 			<license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
 			<website></website>
 			<assets>
-				<icon>resources/images/icon.png</icon>
-				<fanart>resources/images/fanart.jpg</fanart>
+				<icon>icon.png</icon>
 			</assets>
 			<reuselanguageinvoker>true</reuselanguageinvoker>
 		</extension>
@@ -604,7 +603,7 @@
 			<reuselanguageinvoker>true</reuselanguageinvoker>
 		</extension>
 	</addon>
-	<addon id="plugin.video.filmbox" name="FilmBox" version="1.0.0" provider-name="lg">
+	<addon id="plugin.video.filmbox" name="FilmBox" version="1.0.1" provider-name="lg">
 		<requires>
 			<import addon="script.module.requests" />
 			<import addon="script.module.inputstreamhelper" />
@@ -631,7 +630,7 @@
 			<reuselanguageinvoker>true</reuselanguageinvoker>
 		</extension>
 	</addon>
-	<addon id="plugin.video.mubi" name="MUBI" version="1.0.0" provider-name="lg">
+	<addon id="plugin.video.mubi" name="MUBI" version="1.0.1" provider-name="lg">
 		<requires>
 			<import addon="script.module.requests" />
 			<import addon="script.module.inputstreamhelper" />
@@ -934,6 +933,33 @@
 			<summary lang="en">TV SMART GO</summary>
 			<description lang="en">TV SMART GO: Vectra, Multimedia, JAMBOX, Elsat, tvsmart.pl</description>
 			<disclaimer lang="en">TV SMART GO
+			</disclaimer>
+			<language>pl</language>
+			<platform>all</platform>
+			<license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
+			<website></website>
+			<assets>
+				<icon>icon.png</icon>
+			</assets>
+			<reuselanguageinvoker>true</reuselanguageinvoker>
+		</extension>
+	</addon>
+	<addon id="plugin.video.esesja" name="eSesja.tv" version="1.0.0" provider-name="lg">
+		<requires>
+			<import addon="script.module.requests" />
+			<import addon="script.module.inputstreamhelper" />
+			<import addon="script.module.resolveurl"/>
+		</requires>
+		<extension point="xbmc.python.pluginsource" library="addon.py">
+			<provides>video</provides>
+		</extension>
+		<extension point="xbmc.addon.metadata">
+			<description lang="pl">eSesja.tv</description>
+			<disclaimer lang="pl">eSesja.tv
+			</disclaimer>
+			<summary lang="en">eSesja.tv</summary>
+			<description lang="en">eSesja.tv</description>
+			<disclaimer lang="en">eSesja.tv
 			</disclaimer>
 			<language>pl</language>
 			<platform>all</platform>
