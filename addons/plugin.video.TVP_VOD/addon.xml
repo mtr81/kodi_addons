@@ -22,8 +22,7 @@
         <license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
         <website></website>
         <assets>
-            <icon>resources/images/icon.png</icon>
-			<fanart>resources/images/fanart.jpg</fanart>
+            <icon>icon.png</icon>
         </assets>
         <reuselanguageinvoker>true</reuselanguageinvoker>
     </extension>
