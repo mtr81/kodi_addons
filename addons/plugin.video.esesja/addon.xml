@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
-<addon id="plugin.video.esesja" name="eSesja.tv" version="1.0.0" provider-name="lg">
+<addon id="plugin.video.esesja" name="eSesja.tv" version="1.0.1" provider-name="lg">
     <requires>
         <import addon="script.module.requests" />
         <import addon="script.module.inputstreamhelper" />
-		<import addon="script.module.resolveurl"/>
     </requires>
     <extension point="xbmc.python.pluginsource" library="addon.py">
         <provides>video</provides>
