@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
-<addon id="plugin.video.play_now" name="Play Now beta" version="0.0.2" provider-name="lg">
+<addon id="plugin.video.play_now" name="Play Now" version="1.0.0" provider-name="lg">
     <requires>
         <import addon="script.module.requests" />
         <import addon="script.module.inputstreamhelper" />
@@ -8,7 +8,7 @@
         <provides>video</provides>
     </extension>
 	<extension point="xbmc.addon.metadata">
-        <description lang="pl">Play Now - wersja testowa</description>
+        <description lang="pl">Play Now</description>
         <disclaimer lang="pl">Play Now
         </disclaimer>
         <summary lang="en">Play Now</summary>

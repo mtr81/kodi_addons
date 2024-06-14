@@ -56,7 +56,7 @@
 			<reuselanguageinvoker>true</reuselanguageinvoker>
 		</extension>
 	</addon>
-	<addon id="plugin.video.onet" name="ONET" version="1.0.5" provider-name="lg">
+	<addon id="plugin.video.onet" name="ONET" version="1.0.6" provider-name="lg">
 		<requires>
 			<import addon="script.module.requests" />
 			<import addon="script.module.inputstreamhelper" />
@@ -82,7 +82,7 @@
 			<reuselanguageinvoker>true</reuselanguageinvoker>
 		</extension>
 	</addon>
-	<addon id="plugin.video.polsat_news" name="POLSAT News&Sport" version="1.0.6" provider-name="lg">
+	<addon id="plugin.video.polsat_news" name="POLSAT News&Sport" version="1.0.7" provider-name="lg">
 		<requires>
 			<import addon="script.module.requests" />
 			<import addon="script.module.inputstreamhelper" />
@@ -108,7 +108,7 @@
 			<reuselanguageinvoker>true</reuselanguageinvoker>
 		</extension>
 	</addon>
-	<addon id="plugin.video.wp" name="WP" version="1.0.4" provider-name="lg">
+	<addon id="plugin.video.wp" name="WP" version="1.0.5" provider-name="lg">
 		<requires>
 			<import addon="script.module.requests" />
 			<import addon="script.module.inputstreamhelper" />
@@ -134,7 +134,7 @@
 			<reuselanguageinvoker>true</reuselanguageinvoker>
 		</extension>
 	</addon>
-	<addon id="plugin.video.toya_go" name="TOYA GO" version="1.0.6" provider-name="lg">
+	<addon id="plugin.video.toya_go" name="TOYA GO" version="1.0.7" provider-name="lg">
 		<requires>
 			<import addon="script.module.requests" />
 			<import addon="script.module.inputstreamhelper" />
@@ -316,7 +316,7 @@
 			<reuselanguageinvoker>true</reuselanguageinvoker>
 		</extension>
 	</addon>
-	<addon id="plugin.video.rakuten_tv" name="Rakuten TV" version="1.0.2" provider-name="lg">
+	<addon id="plugin.video.rakuten_tv" name="Rakuten TV" version="1.0.3" provider-name="lg">
 		<requires>
 			<import addon="script.module.requests" />
 			<import addon="script.module.inputstreamhelper" />
@@ -342,7 +342,7 @@
 			<reuselanguageinvoker>true</reuselanguageinvoker>
 		</extension>
 	</addon>
-	<addon id="plugin.video.play_now" name="Play Now beta" version="0.0.2" provider-name="lg">
+	<addon id="plugin.video.play_now" name="Play Now" version="1.0.0" provider-name="lg">
 		<requires>
 			<import addon="script.module.requests" />
 			<import addon="script.module.inputstreamhelper" />
@@ -351,7 +351,7 @@
 			<provides>video</provides>
 		</extension>
 		<extension point="xbmc.addon.metadata">
-			<description lang="pl">Play Now - wersja testowa</description>
+			<description lang="pl">Play Now</description>
 			<disclaimer lang="pl">Play Now
 			</disclaimer>
 			<summary lang="en">Play Now</summary>
@@ -368,7 +368,7 @@
 			<reuselanguageinvoker>true</reuselanguageinvoker>
 		</extension>
 	</addon>
-	<addon id="plugin.video.red_tv" name="RED TV" version="1.0.4" provider-name="lg">
+	<addon id="plugin.video.red_tv" name="RED TV" version="1.0.5" provider-name="lg">
 		<requires>
 			<import addon="script.module.requests" />
 			<import addon="script.module.inputstreamhelper" />
@@ -447,7 +447,7 @@
 			<reuselanguageinvoker>true</reuselanguageinvoker>
 		</extension>
 	</addon>
-	<addon id="plugin.video.se" name="SuperExpress video" version="1.0.3" provider-name="lg">
+	<addon id="plugin.video.se" name="SuperExpress video" version="1.0.4" provider-name="lg">
 		<requires>
 			<import addon="script.module.requests" />
 			<import addon="script.module.inputstreamhelper" />
@@ -473,7 +473,7 @@
 			<reuselanguageinvoker>true</reuselanguageinvoker>
 		</extension>
 	</addon>
-	<addon id="plugin.video.interia_tv" name="Interia.tv" version="1.0.0" provider-name="lg">
+	<addon id="plugin.video.interia_tv" name="Interia.tv" version="1.0.1" provider-name="lg">
 		<requires>
 			<import addon="script.module.requests" />
 			<import addon="script.module.inputstreamhelper" />
@@ -499,7 +499,7 @@
 			<reuselanguageinvoker>true</reuselanguageinvoker>
 		</extension>
 	</addon>
-	<addon id="plugin.video.fakt" name="FAKT" version="1.0.0" provider-name="lg">
+	<addon id="plugin.video.fakt" name="FAKT" version="1.0.1" provider-name="lg">
 		<requires>
 			<import addon="script.module.requests" />
 			<import addon="script.module.inputstreamhelper" />
@@ -525,33 +525,7 @@
 			<reuselanguageinvoker>true</reuselanguageinvoker>
 		</extension>
 	</addon>
-	<addon id="plugin.video.gazeta_pl" name="gazeta.pl" version="1.0.0" provider-name="lg">
-		<requires>
-			<import addon="script.module.requests" />
-			<import addon="script.module.inputstreamhelper" />
-		</requires>
-		<extension point="xbmc.python.pluginsource" library="addon.py">
-			<provides>video</provides>
-		</extension>
-		<extension point="xbmc.addon.metadata">
-			<description lang="pl">gazeta.pl</description>
-			<disclaimer lang="pl">gazeta.pl
-			</disclaimer>
-			<summary lang="en">gazeta.pl</summary>
-			<description lang="en">gazeta.pl</description>
-			<disclaimer lang="en">gazeta.pl
-			</disclaimer>
-			<language>pl</language>
-			<platform>all</platform>
-			<license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
-			<website></website>
-			<assets>
-				<icon>icon.png</icon>
-			</assets>
-			<reuselanguageinvoker>true</reuselanguageinvoker>
-		</extension>
-	</addon>
-	<addon id="plugin.video.jambox" name="JAMBOX GO" version="1.0.0" provider-name="lg">
+	<addon id="plugin.video.jambox" name="JAMBOX GO" version="1.0.1" provider-name="lg">
 		<requires>
 			<import addon="script.module.requests" />
 		<import addon="script.module.inputstreamhelper" />
@@ -577,7 +551,7 @@
 			<reuselanguageinvoker>true</reuselanguageinvoker>
 		</extension>
 	</addon>
-	<addon id="plugin.video.playpuls" name="Play PULS" version="1.0.0" provider-name="lg">
+	<addon id="plugin.video.playpuls" name="Play PULS" version="1.0.1" provider-name="lg">
 		<requires>
 			<import addon="script.module.requests" />
 			<import addon="script.module.inputstreamhelper" />
@@ -656,7 +630,7 @@
 			<reuselanguageinvoker>true</reuselanguageinvoker>
 		</extension>
 	</addon>
-	<addon id="plugin.video.parlament" name="Parlament" version="1.0.0" provider-name="lg">
+	<addon id="plugin.video.parlament" name="Parlament" version="1.0.1" provider-name="lg">
 		<requires>
 			<import addon="script.module.requests" />
 			<import addon="script.module.inputstreamhelper" />
@@ -682,7 +656,7 @@
 			<reuselanguageinvoker>true</reuselanguageinvoker>
 		</extension>
 	</addon>
-	<addon id="plugin.video.tbn" name="TBN Polska" version="1.0.2" provider-name="lg">
+	<addon id="plugin.video.tbn" name="TBN Polska" version="1.0.3" provider-name="lg">
 		<requires>
 			<import addon="script.module.requests" />
 			<import addon="script.module.inputstreamhelper" />
@@ -708,7 +682,7 @@
 			<reuselanguageinvoker>true</reuselanguageinvoker>
 		</extension>
 	</addon>
-	<addon id="plugin.video.trwam" name="TV TRWAM" version="1.0.2" provider-name="lg">
+	<addon id="plugin.video.trwam" name="TV TRWAM" version="1.0.3" provider-name="lg">
 		<requires>
 			<import addon="script.module.requests" />
 			<import addon="script.module.inputstreamhelper" />
@@ -813,7 +787,7 @@
 			<reuselanguageinvoker>true</reuselanguageinvoker>
 		</extension>
 	</addon>
-	<addon id="plugin.video.adapterpl" name="Adapter PL" version="1.0.0" provider-name="lg">
+	<addon id="plugin.video.adapterpl" name="Adapter PL" version="1.0.1" provider-name="lg">
 		<requires>
 			<import addon="script.module.requests" />
 			<import addon="script.module.inputstreamhelper" />
@@ -866,7 +840,7 @@
 			<reuselanguageinvoker>true</reuselanguageinvoker>
 		</extension>
 	</addon>
-	<addon id="plugin.video.eurovisionsport" name="Eurovision Sport" version="1.0.0" provider-name="lg">
+	<addon id="plugin.video.eurovisionsport" name="Eurovision Sport" version="1.0.1" provider-name="lg">
 		<requires>
 			<import addon="script.module.requests" />
 			<import addon="script.module.inputstreamhelper" />
@@ -875,11 +849,11 @@
 			<provides>video</provides>
 		</extension>
 		<extension point="xbmc.addon.metadata">
-			<description lang="pl">Eurovision Sport</description>
+			<description lang="pl">only for android devices</description>
 			<disclaimer lang="pl">Eurovision Sport
 			</disclaimer>
 			<summary lang="en">Eurovision Sport</summary>
-			<description lang="en">Eurovision Sport</description>
+			<description lang="en">only for android devices</description>
 			<disclaimer lang="en">Eurovision Sport
 			</disclaimer>
 			<language>pl</language>
