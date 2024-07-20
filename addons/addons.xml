@@ -866,7 +866,7 @@
 			<reuselanguageinvoker>true</reuselanguageinvoker>
 		</extension>
 	</addon>
-	<addon id="plugin.video.megogo_atv" name="Megogo" version="1.0.1" provider-name="lg">
+	<addon id="plugin.video.megogo_atv" name="Megogo" version="1.0.2" provider-name="lg">
 		<requires>
 			<import addon="script.module.requests" />
 			<import addon="script.module.inputstreamhelper" />
@@ -933,6 +933,32 @@
 			<summary lang="en">eSesja.tv</summary>
 			<description lang="en">eSesja.tv</description>
 			<disclaimer lang="en">eSesja.tv
+			</disclaimer>
+			<language>pl</language>
+			<platform>all</platform>
+			<license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
+			<website></website>
+			<assets>
+				<icon>icon.png</icon>
+			</assets>
+			<reuselanguageinvoker>true</reuselanguageinvoker>
+		</extension>
+	</addon>
+	<addon id="plugin.video.flixclassicpl" name="FlixClassic" version="1.0.0" provider-name="lg">
+		<requires>
+			<import addon="script.module.requests" />
+			<import addon="script.module.inputstreamhelper" />
+		</requires>
+		<extension point="xbmc.python.pluginsource" library="addon.py">
+			<provides>video</provides>
+		</extension>
+		<extension point="xbmc.addon.metadata">
+			<description lang="pl">FlixClassic</description>
+			<disclaimer lang="pl">FlixClassic
+			</disclaimer>
+			<summary lang="en">FlixClassic</summary>
+			<description lang="en">FlixClassic</description>
+			<disclaimer lang="en">FlixClassic
 			</disclaimer>
 			<language>pl</language>
 			<platform>all</platform>
