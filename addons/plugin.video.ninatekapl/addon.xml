@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
-<addon id="plugin.video.flixclassicpl" name="FlixClassic" version="1.0.1" provider-name="lg">
+<addon id="plugin.video.ninatekapl" name="Ninateka" version="1.0.0" provider-name="lg">
     <requires>
         <import addon="script.module.requests" />
         <import addon="script.module.inputstreamhelper" />
@@ -8,12 +8,12 @@
         <provides>video</provides>
     </extension>
  	<extension point="xbmc.addon.metadata">
-        <description lang="pl">FlixClassic</description>
-        <disclaimer lang="pl">FlixClassic
+        <description lang="pl">Ninateka</description>
+        <disclaimer lang="pl">Ninateka
         </disclaimer>
-        <summary lang="en">FlixClassic</summary>
-        <description lang="en">FlixClassic</description>
-        <disclaimer lang="en">FlixClassic
+        <summary lang="en">Ninateka</summary>
+        <description lang="en">Ninateka</description>
+        <disclaimer lang="en">Ninateka
         </disclaimer>
         <language>pl</language>
         <platform>all</platform>
