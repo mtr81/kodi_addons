@@ -499,7 +499,7 @@
 			<reuselanguageinvoker>true</reuselanguageinvoker>
 		</extension>
 	</addon>
-	<addon id="plugin.video.fakt" name="FAKT" version="1.0.1" provider-name="lg">
+	<addon id="plugin.video.fakt" name="FAKT" version="1.0.2" provider-name="lg">
 		<requires>
 			<import addon="script.module.requests" />
 			<import addon="script.module.inputstreamhelper" />
