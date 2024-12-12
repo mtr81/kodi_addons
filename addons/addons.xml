@@ -82,7 +82,7 @@
 			<reuselanguageinvoker>true</reuselanguageinvoker>
 		</extension>
 	</addon>
-	<addon id="plugin.video.polsat_news" name="POLSAT News&Sport" version="1.0.10" provider-name="lg">
+	<addon id="plugin.video.polsat_news" name="POLSAT News&Sport" version="1.0.11" provider-name="lg">
 		<requires>
 			<import addon="script.module.requests" />
 			<import addon="script.module.inputstreamhelper" />
@@ -212,7 +212,7 @@
 			<reuselanguageinvoker>true</reuselanguageinvoker>
 		</extension>
 	</addon>
-	<addon id="plugin.audio.rmfon" name="RMF ON" version="1.0.1" provider-name="lg">
+	<addon id="plugin.audio.rmfon" name="RMF ON" version="1.1.0" provider-name="lg">
 		<requires>
 			<import addon="script.module.requests" />
 			<import addon="service.cronxbmc" optional="true"/>
@@ -394,7 +394,7 @@
 			<reuselanguageinvoker>true</reuselanguageinvoker>
 		</extension>
 	</addon>
-	<addon id="plugin.video.35mm" name="35mm.online" version="1.0.5" provider-name="lg">
+	<addon id="plugin.video.35mm" name="35mm.online" version="1.0.6" provider-name="lg">
 		<requires>
 			<import addon="script.module.requests" />
 			<import addon="script.module.inputstreamhelper" />
@@ -420,7 +420,7 @@
 			<reuselanguageinvoker>true</reuselanguageinvoker>
 		</extension>
 	</addon>
-	<addon id="plugin.video.polsatbox_go" name="PolsatBoxGO" version="1.0.4" provider-name="lg">
+	<addon id="plugin.video.polsatbox_go" name="PolsatBoxGO" version="1.0.5" provider-name="lg">
 		<requires>
 			<import addon="xbmc.python" version="3.0.0"/>
 			<import addon="script.module.requests"/>
@@ -707,7 +707,7 @@
 			<reuselanguageinvoker>true</reuselanguageinvoker>
 		</extension>
 	</addon>
-	<addon id="plugin.video.polsatbox_go_atv" name="PolsatBoxGO 4K" version="1.0.5" provider-name="lg">
+	<addon id="plugin.video.polsatbox_go_atv" name="PolsatBoxGO 4K" version="1.0.6" provider-name="lg">
 		<requires>
 			<import addon="xbmc.python" version="3.0.0"/>
 			<import addon="script.module.requests"/>
