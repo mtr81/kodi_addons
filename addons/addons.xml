@@ -342,7 +342,7 @@
 			<reuselanguageinvoker>true</reuselanguageinvoker>
 		</extension>
 	</addon>
-	<addon id="plugin.video.play_now" name="Play Now" version="1.0.4" provider-name="lg">
+	<addon id="plugin.video.play_now" name="Play Now" version="1.0.5" provider-name="lg">
 		<requires>
 			<import addon="script.module.requests" />
 			<import addon="script.module.inputstreamhelper" />
@@ -984,6 +984,33 @@
 			<summary lang="en">Ninateka</summary>
 			<description lang="en">Ninateka</description>
 			<disclaimer lang="en">Ninateka
+			</disclaimer>
+			<language>pl</language>
+			<platform>all</platform>
+			<license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
+			<website></website>
+			<assets>
+				<icon>icon.png</icon>
+			</assets>
+			<reuselanguageinvoker>true</reuselanguageinvoker>
+		</extension>
+	</addon>
+	<addon id="plugin.video.elevens" name="Eleven Sports PL" version="1.0.0" provider-name="lg">
+		<requires>
+			<import addon="xbmc.python" version="3.0.0"/>
+			<import addon="script.module.requests"/>
+			<import addon="script.module.inputstreamhelper" />
+		</requires>
+		<extension point="xbmc.python.pluginsource" library="addon.py">
+			<provides>video</provides>
+		</extension>
+		<extension point="xbmc.addon.metadata">
+			<description lang="pl">Eleven Sports</description>
+			<disclaimer lang="pl">Eleven Sports
+			</disclaimer>
+			<summary lang="en">Eleven Sports</summary>
+			<description lang="en">Eleven Sports</description>
+			<disclaimer lang="en">Eleven Sports
 			</disclaimer>
 			<language>pl</language>
 			<platform>all</platform>
