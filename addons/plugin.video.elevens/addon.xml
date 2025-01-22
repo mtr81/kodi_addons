@@ -1,19 +1,20 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
-<addon id="plugin.video.play_now" name="Play Now" version="1.0.5" provider-name="lg">
+<addon id="plugin.video.elevens" name="Eleven Sports PL" version="1.0.0" provider-name="lg">
     <requires>
-        <import addon="script.module.requests" />
+        <import addon="xbmc.python" version="3.0.0"/>
+        <import addon="script.module.requests"/>
         <import addon="script.module.inputstreamhelper" />
     </requires>
     <extension point="xbmc.python.pluginsource" library="addon.py">
         <provides>video</provides>
     </extension>
-	<extension point="xbmc.addon.metadata">
-        <description lang="pl">Play Now</description>
-        <disclaimer lang="pl">Play Now
+    <extension point="xbmc.addon.metadata">
+        <description lang="pl">Eleven Sports</description>
+        <disclaimer lang="pl">Eleven Sports
         </disclaimer>
-        <summary lang="en">Play Now</summary>
-        <description lang="en">Play Now</description>
-        <disclaimer lang="en">Play Now
+        <summary lang="en">Eleven Sports</summary>
+        <description lang="en">Eleven Sports</description>
+        <disclaimer lang="en">Eleven Sports
         </disclaimer>
         <language>pl</language>
         <platform>all</platform>
