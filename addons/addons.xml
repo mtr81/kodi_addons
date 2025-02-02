@@ -56,7 +56,7 @@
 			<reuselanguageinvoker>true</reuselanguageinvoker>
 		</extension>
 	</addon>
-	<addon id="plugin.video.onet" name="ONET" version="1.0.6" provider-name="lg">
+	<addon id="plugin.video.onet" name="ONET" version="1.0.7" provider-name="lg">
 		<requires>
 			<import addon="script.module.requests" />
 			<import addon="script.module.inputstreamhelper" />
@@ -65,12 +65,12 @@
 			<provides>video</provides>
 		</extension>
 		<extension point="xbmc.addon.metadata">
-			<description lang="pl">ONET VIDEO</description>
-			<disclaimer lang="pl">ONET VIDEO
+			<description lang="pl">ONET</description>
+			<disclaimer lang="pl">ONET
 			</disclaimer>
-			<summary lang="en">ONET VIDEO</summary>
-			<description lang="en">ONET VIDEO</description>
-			<disclaimer lang="en">ONET VIDEO
+			<summary lang="en">ONET</summary>
+			<description lang="en">ONET</description>
+			<disclaimer lang="en">ONET
 			</disclaimer>
 			<language>pl</language>
 			<platform>all</platform>
@@ -108,7 +108,7 @@
 			<reuselanguageinvoker>true</reuselanguageinvoker>
 		</extension>
 	</addon>
-	<addon id="plugin.video.wp" name="WP" version="1.0.5" provider-name="lg">
+	<addon id="plugin.video.wp" name="WP" version="1.0.6" provider-name="lg">
 		<requires>
 			<import addon="script.module.requests" />
 			<import addon="script.module.inputstreamhelper" />
@@ -264,7 +264,7 @@
 			<reuselanguageinvoker>true</reuselanguageinvoker>
 		</extension>
 	</addon>
-	<addon id="plugin.video.wppilot" name="Pilot WP" version="1.0.5" provider-name="lg">
+	<addon id="plugin.video.wppilot" name="Pilot WP" version="1.0.6" provider-name="lg">
 		<requires>
 			<import addon="script.module.requests" />
 			<import addon="script.module.inputstreamhelper" />
@@ -342,7 +342,7 @@
 			<reuselanguageinvoker>true</reuselanguageinvoker>
 		</extension>
 	</addon>
-	<addon id="plugin.video.play_now" name="Play Now" version="1.0.5" provider-name="lg">
+	<addon id="plugin.video.play_now" name="Play Now" version="1.0.6" provider-name="lg">
 		<requires>
 			<import addon="script.module.requests" />
 			<import addon="script.module.inputstreamhelper" />
@@ -551,7 +551,7 @@
 			<reuselanguageinvoker>true</reuselanguageinvoker>
 		</extension>
 	</addon>
-	<addon id="plugin.video.playpuls" name="Play PULS" version="1.0.2" provider-name="lg">
+	<addon id="plugin.video.playpuls" name="Play PULS" version="1.0.3" provider-name="lg">
 		<requires>
 			<import addon="script.module.requests" />
 			<import addon="script.module.inputstreamhelper" />
@@ -760,7 +760,7 @@
 			<reuselanguageinvoker>true</reuselanguageinvoker>
 		</extension>
 	</addon>
-	<addon id="plugin.audio.zpr" name="ZPR Radio" version="1.0.0" provider-name="lg">
+	<addon id="plugin.audio.zpr" name="ZPR Radio" version="1.0.1" provider-name="lg">
 		<requires>
 			<import addon="script.module.requests" />
 		<import addon="script.module.inputstreamhelper" />
@@ -995,7 +995,7 @@
 			<reuselanguageinvoker>true</reuselanguageinvoker>
 		</extension>
 	</addon>
-	<addon id="plugin.video.elevens" name="Eleven Sports PL" version="1.0.0" provider-name="lg">
+	<addon id="plugin.video.elevens" name="Eleven Sports PL" version="1.0.1" provider-name="lg">
 		<requires>
 			<import addon="xbmc.python" version="3.0.0"/>
 			<import addon="script.module.requests"/>
