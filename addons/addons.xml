@@ -108,7 +108,7 @@
 			<reuselanguageinvoker>true</reuselanguageinvoker>
 		</extension>
 	</addon>
-	<addon id="plugin.video.wp" name="WP" version="1.0.6" provider-name="lg">
+	<addon id="plugin.video.wp" name="WP" version="1.0.7" provider-name="lg">
 		<requires>
 			<import addon="script.module.requests" />
 			<import addon="script.module.inputstreamhelper" />
