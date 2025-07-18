@@ -445,7 +445,7 @@
 			<reuselanguageinvoker>true</reuselanguageinvoker>
 		</extension>
 	</addon>
-	<addon id="plugin.video.interia_tv" name="Interia.tv" version="1.0.1" provider-name="lg">
+	<addon id="plugin.video.interia_tv" name="Interia" version="1.0.2" provider-name="lg">
 		<requires>
 			<import addon="script.module.requests" />
 			<import addon="script.module.inputstreamhelper" />
@@ -454,12 +454,12 @@
 			<provides>video</provides>
 		</extension>
 		<extension point="xbmc.addon.metadata">
-			<description lang="pl">Interia.tv</description>
-			<disclaimer lang="pl">Interia.tv
+			<description lang="pl">Interia</description>
+			<disclaimer lang="pl">Interia
 			</disclaimer>
-			<summary lang="en">Interia.tv</summary>
-			<description lang="en">Interia.tv</description>
-			<disclaimer lang="en">Interia.tv
+			<summary lang="en">Interia</summary>
+			<description lang="en">Interia</description>
+			<disclaimer lang="en">Interia
 			</disclaimer>
 			<language>pl</language>
 			<platform>all</platform>
@@ -679,7 +679,7 @@
 			<reuselanguageinvoker>true</reuselanguageinvoker>
 		</extension>
 	</addon>
-	<addon id="plugin.video.polsatbox_go_atv" name="PolsatBoxGO 4K" version="1.0.7" provider-name="lg">
+	<addon id="plugin.video.polsatbox_go_atv" name="PolsatBoxGO 4K" version="1.0.8" provider-name="lg">
 		<requires>
 			<import addon="xbmc.python" version="3.0.0"/>
 			<import addon="script.module.requests"/>
@@ -758,7 +758,7 @@
 			<reuselanguageinvoker>true</reuselanguageinvoker>
 		</extension>
 	</addon>
-	<addon id="plugin.video.adapterpl" name="Adapter PL" version="1.0.1" provider-name="lg">
+	<addon id="plugin.video.adapterpl" name="Adapter PL" version="1.0.2" provider-name="lg">
 		<requires>
 			<import addon="script.module.requests" />
 			<import addon="script.module.inputstreamhelper" />
