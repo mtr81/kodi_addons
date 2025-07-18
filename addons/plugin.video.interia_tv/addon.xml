@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
-<addon id="plugin.video.interia_tv" name="Interia.tv" version="1.0.1" provider-name="lg">
+<addon id="plugin.video.interia_tv" name="Interia" version="1.0.2" provider-name="lg">
     <requires>
 		<import addon="script.module.requests" />
 		<import addon="script.module.inputstreamhelper" />
@@ -8,12 +8,12 @@
         <provides>video</provides>
     </extension>
  	<extension point="xbmc.addon.metadata">
-        <description lang="pl">Interia.tv</description>
-        <disclaimer lang="pl">Interia.tv
+        <description lang="pl">Interia</description>
+        <disclaimer lang="pl">Interia
         </disclaimer>
-        <summary lang="en">Interia.tv</summary>
-        <description lang="en">Interia.tv</description>
-        <disclaimer lang="en">Interia.tv
+        <summary lang="en">Interia</summary>
+        <description lang="en">Interia</description>
+        <disclaimer lang="en">Interia
         </disclaimer>
         <language>pl</language>
         <platform>all</platform>
