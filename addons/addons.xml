@@ -994,6 +994,84 @@
 			<reuselanguageinvoker>true</reuselanguageinvoker>
 		</extension>
 	</addon>
+	<addon id="plugin.audio.jazzfm" name="JAZZ FM Podcasty" version="1.0.0" provider-name="lg">
+		<requires>
+			<import addon="script.module.requests" />
+			<import addon="script.module.inputstreamhelper" />
+		</requires>
+		<extension point="xbmc.python.pluginsource" library="addon.py">
+			<provides>audio</provides>
+		</extension>
+		<extension point="xbmc.addon.metadata">
+			<description lang="pl">JAZZ FM Podcasty</description>
+			<disclaimer lang="pl">JAZZ FM Podcasty
+			</disclaimer>
+			<summary lang="en">JAZZ FM Podcasty</summary>
+			<description lang="en">JAZZ FM Podcasty</description>
+			<disclaimer lang="en">JAZZ FM Podcasty
+			</disclaimer>
+			<language>pl</language>
+			<platform>all</platform>
+			<license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
+			<website></website>
+			<assets>
+				<icon>icon.png</icon>
+			</assets>
+			<reuselanguageinvoker>true</reuselanguageinvoker>
+		</extension>
+	</addon>
+	<addon id="plugin.audio.myradio" name="MyRadioOnline" version="1.0.0" provider-name="lg">
+		<requires>
+			<import addon="script.module.requests" />
+			<import addon="script.module.inputstreamhelper" />
+		</requires>
+		<extension point="xbmc.python.pluginsource" library="addon.py">
+			<provides>audio</provides>
+		</extension>
+		<extension point="xbmc.addon.metadata">
+			<description lang="pl">MyRadioOnline</description>
+			<disclaimer lang="pl">MyRadioOnline
+			</disclaimer>
+			<summary lang="en">MyRadioOnline</summary>
+			<description lang="en">MyRadioOnline</description>
+			<disclaimer lang="en">MyRadioOnline
+			</disclaimer>
+			<language>pl</language>
+			<platform>all</platform>
+			<license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
+			<website></website>
+			<assets>
+				<icon>icon.png</icon>
+			</assets>
+			<reuselanguageinvoker>true</reuselanguageinvoker>
+		</extension>
+	</addon>
+	<addon id="plugin.video.cda_premium" name="CDA Premium" version="1.1.0" provider-name="lg">
+		<requires>
+			<import addon="script.module.requests" />
+			<import addon="script.module.inputstreamhelper" />
+		</requires>
+		<extension point="xbmc.python.pluginsource" library="addon.py">
+			<provides>video</provides>
+		</extension>
+		<extension point="xbmc.addon.metadata">
+			<description lang="pl">CDA Premium</description>
+			<disclaimer lang="pl">CDA Premium
+			</disclaimer>
+			<summary lang="en">CDA Premium</summary>
+			<description lang="en">CDA Premium</description>
+			<disclaimer lang="en">CDA Premium
+			</disclaimer>
+			<language>pl</language>
+			<platform>all</platform>
+			<license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
+			<website></website>
+			<assets>
+				<icon>icon.png</icon>
+			</assets>
+			<reuselanguageinvoker>true</reuselanguageinvoker>
+		</extension>
+	</addon>
 	<addon id="script.module.ttml2ssa"
 			name="Improved Subtitles"
 			version="0.3.8"
