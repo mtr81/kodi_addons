@@ -1072,6 +1072,33 @@
 			<reuselanguageinvoker>true</reuselanguageinvoker>
 		</extension>
 	</addon>
+	<addon id="plugin.video.orange_go" name="Orange Go" version="1.0.0" provider-name="lg">
+		<requires>
+			<import addon="script.module.requests" />
+			<import addon="script.module.inputstreamhelper" />
+		<import addon="script.module.js2py" version="3.0.2"/>
+		</requires>
+		<extension point="xbmc.python.pluginsource" library="addon.py">
+			<provides>video</provides>
+		</extension>
+		<extension point="xbmc.addon.metadata">
+			<description lang="pl">Orange Go</description>
+			<disclaimer lang="pl">Orange Go
+			</disclaimer>
+			<summary lang="en">Orange Go</summary>
+			<description lang="en">Orange Go</description>
+			<disclaimer lang="en">Orange Go
+			</disclaimer>
+			<language>pl</language>
+			<platform>all</platform>
+			<license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
+			<website></website>
+			<assets>
+				<icon>icon.png</icon>
+			</assets>
+			<reuselanguageinvoker>true</reuselanguageinvoker>
+		</extension>
+	</addon>
 	<addon id="script.module.ttml2ssa"
 			name="Improved Subtitles"
 			version="0.3.8"
@@ -1099,5 +1126,41 @@
 				<screenshot>resources/screen2.jpg</screenshot>
 			</assets>
 		</extension>
+	</addon>
+	<addon id="script.module.js2py" name="js2py" version="3.0.2" provider-name="Addons4Kodi">
+	  <requires>
+		<import addon="script.module.six" version="1.15.0"/>
+		<import addon="script.module.pyjsparser" version="3.0.0"/>
+		<import addon="script.module.tzlocal" version="2.0.0"/>
+	  </requires>
+	  <extension point="xbmc.python.module" library="lib" />
+	  <extension point="xbmc.addon.metadata">
+		<summary>Pure Python JavaScript Translator/Interpreter</summary>
+		<description>Packed for Kodi from https://github.com/PiotrDabkowski/Js2Py</description>
+		<platform>all</platform>
+		<language></language>
+		<license>MIT</license>
+		<forum></forum>
+		<website>https://github.com/PiotrDabkowski/Js2Py</website>
+		<source>https://github.com/PiotrDabkowski/Js2Py</source>
+		<email></email>
+	  </extension>
+	</addon>
+	<addon id="script.module.pyjsparser" name="pyjsparser" version="3.0.0" provider-name="Addons4Kodi">
+	  <requires>
+		<!-- <import addon="xbmc.python" version="3.0.0" /> -->
+	  </requires>
+	  <extension point="xbmc.python.module" library="lib" />
+	  <extension point="xbmc.addon.metadata">
+		<summary>Pure Python JavaScript Translator/Interpreter</summary>
+		<description>Packed for Kodi from https://github.com/PiotrDabkowski/pyjsparser</description>
+		<platform>all</platform>
+		<language></language>
+		<license>MIT</license>
+		<forum></forum>
+		<website>https://github.com/PiotrDabkowski/pyjsparser</website>
+		<source>https://github.com/PiotrDabkowski/pyjsparser</source>
+		<email></email>
+	  </extension>
 	</addon>
 </addons>
