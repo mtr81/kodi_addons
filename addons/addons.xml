@@ -732,7 +732,7 @@
 			<reuselanguageinvoker>true</reuselanguageinvoker>
 		</extension>
 	</addon>
-	<addon id="plugin.audio.zpr" name="ZPR Radio" version="1.0.1" provider-name="lg">
+	<addon id="plugin.audio.zpr" name="ZPR Radio" version="1.0.2" provider-name="lg">
 		<requires>
 			<import addon="script.module.requests" />
 		<import addon="script.module.inputstreamhelper" />
@@ -1072,7 +1072,7 @@
 			<reuselanguageinvoker>true</reuselanguageinvoker>
 		</extension>
 	</addon>
-	<addon id="plugin.video.orange_go" name="Orange Go" version="1.0.0" provider-name="lg">
+	<addon id="plugin.video.orange_go" name="Orange Go" version="1.0.1" provider-name="lg">
 		<requires>
 			<import addon="script.module.requests" />
 			<import addon="script.module.inputstreamhelper" />
