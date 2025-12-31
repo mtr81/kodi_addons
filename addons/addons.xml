@@ -28,7 +28,7 @@
 			<reuselanguageinvoker>true</reuselanguageinvoker>
 		</extension>
 	</addon>	
-	<addon id="plugin.video.onet" name="ONET" version="1.0.7" provider-name="lg">
+	<addon id="plugin.video.onet" name="ONET" version="1.0.8" provider-name="lg">
 		<requires>
 			<import addon="script.module.requests" />
 			<import addon="script.module.inputstreamhelper" />
@@ -445,7 +445,7 @@
 			<reuselanguageinvoker>true</reuselanguageinvoker>
 		</extension>
 	</addon>
-	<addon id="plugin.video.interia_tv" name="Interia" version="1.0.2" provider-name="lg">
+	<addon id="plugin.video.interia_tv" name="Interia" version="1.0.3" provider-name="lg">
 		<requires>
 			<import addon="script.module.requests" />
 			<import addon="script.module.inputstreamhelper" />
@@ -523,7 +523,7 @@
 			<reuselanguageinvoker>true</reuselanguageinvoker>
 		</extension>
 	</addon>
-	<addon id="plugin.video.playpuls" name="Play PULS" version="1.0.4" provider-name="lg">
+	<addon id="plugin.video.playpuls" name="Play PULS" version="1.0.5" provider-name="lg">
 		<requires>
 			<import addon="script.module.requests" />
 			<import addon="script.module.inputstreamhelper" />
