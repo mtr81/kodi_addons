@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <addons>
-	<addon id="plugin.video.TVP_VOD" name="TVP_VOD" version="1.2.13" provider-name="lg">
+	<addon id="plugin.video.TVP_VOD" name="TVP_VOD" version="1.2.14" provider-name="lg">
 		<requires>
 			<import addon="script.module.requests" />
 			<import addon="script.module.inputstreamhelper" />
@@ -236,7 +236,7 @@
 			<reuselanguageinvoker>true</reuselanguageinvoker>
 		</extension>
 	</addon>
-	<addon id="plugin.video.wppilot" name="Pilot WP" version="1.0.9" provider-name="lg">
+	<addon id="plugin.video.wppilot" name="Pilot WP" version="1.0.10" provider-name="lg">
 		<requires>
 			<import addon="script.module.requests" />
 			<import addon="script.module.inputstreamhelper" />
@@ -288,7 +288,7 @@
 			<reuselanguageinvoker>true</reuselanguageinvoker>
 		</extension>
 	</addon>
-	<addon id="plugin.video.rakuten_tv" name="Rakuten TV" version="1.0.4" provider-name="lg">
+	<addon id="plugin.video.rakuten_tv" name="Rakuten TV" version="1.0.5" provider-name="lg">
 		<requires>
 			<import addon="script.module.requests" />
 			<import addon="script.module.inputstreamhelper" />
@@ -314,7 +314,7 @@
 			<reuselanguageinvoker>true</reuselanguageinvoker>
 		</extension>
 	</addon>
-	<addon id="plugin.video.play_now" name="Play Now" version="1.0.9" provider-name="lg">
+	<addon id="plugin.video.play_now" name="Play Now" version="1.0.10" provider-name="lg">
 		<requires>
 			<import addon="script.module.requests" />
 			<import addon="script.module.inputstreamhelper" />
@@ -340,7 +340,7 @@
 			<reuselanguageinvoker>true</reuselanguageinvoker>
 		</extension>
 	</addon>
-	<addon id="plugin.video.red_tv" name="RED TV" version="1.0.6" provider-name="lg">
+	<addon id="plugin.video.red_tv" name="RED TV" version="1.0.7" provider-name="lg">
 		<requires>
 			<import addon="script.module.requests" />
 			<import addon="script.module.inputstreamhelper" />
@@ -366,7 +366,7 @@
 			<reuselanguageinvoker>true</reuselanguageinvoker>
 		</extension>
 	</addon>
-	<addon id="plugin.video.35mm" name="35mm.online" version="1.0.7" provider-name="lg">
+	<addon id="plugin.video.35mm" name="35mm.online" version="1.0.8" provider-name="lg">
 		<requires>
 			<import addon="script.module.requests" />
 			<import addon="script.module.inputstreamhelper" />
@@ -392,7 +392,7 @@
 			<reuselanguageinvoker>true</reuselanguageinvoker>
 		</extension>
 	</addon>
-	<addon id="plugin.video.polsatbox_go" name="PolsatBoxGO" version="1.0.5" provider-name="lg">
+	<addon id="plugin.video.polsatbox_go" name="PolsatBoxGO" version="1.0.6" provider-name="lg">
 		<requires>
 			<import addon="xbmc.python" version="3.0.0"/>
 			<import addon="script.module.requests"/>
@@ -497,7 +497,7 @@
 			<reuselanguageinvoker>true</reuselanguageinvoker>
 		</extension>
 	</addon>
-	<addon id="plugin.video.jambox" name="JAMBOX GO" version="1.0.3" provider-name="lg">
+	<addon id="plugin.video.jambox" name="JAMBOX GO" version="1.0.4" provider-name="lg">
 		<requires>
 			<import addon="script.module.requests" />
 		<import addon="script.module.inputstreamhelper" />
@@ -549,7 +549,7 @@
 			<reuselanguageinvoker>true</reuselanguageinvoker>
 		</extension>
 	</addon>
-	<addon id="plugin.video.filmbox_plus" name="FilmBox+" version="1.0.2" provider-name="lg">
+	<addon id="plugin.video.filmbox_plus" name="FilmBox+" version="1.0.3" provider-name="lg">
 		<requires>
 			<import addon="script.module.requests" />
 			<import addon="script.module.inputstreamhelper" />
@@ -575,7 +575,7 @@
 			<reuselanguageinvoker>true</reuselanguageinvoker>
 		</extension>
 	</addon>
-	<addon id="plugin.video.mubi" name="MUBI" version="1.0.4" provider-name="lg">
+	<addon id="plugin.video.mubi" name="MUBI" version="1.0.5" provider-name="lg">
 		<requires>
 			<import addon="script.module.requests" />
 			<import addon="script.module.inputstreamhelper" />
@@ -627,7 +627,7 @@
 			<reuselanguageinvoker>true</reuselanguageinvoker>
 		</extension>
 	</addon>
-	<addon id="plugin.video.tbn" name="TBN Polska" version="1.0.3" provider-name="lg">
+	<addon id="plugin.video.tbn" name="TBN Polska" version="1.0.4" provider-name="lg">
 		<requires>
 			<import addon="script.module.requests" />
 			<import addon="script.module.inputstreamhelper" />
@@ -679,7 +679,7 @@
 			<reuselanguageinvoker>true</reuselanguageinvoker>
 		</extension>
 	</addon>
-	<addon id="plugin.video.polsatbox_go_atv" name="PolsatBoxGO 4K" version="1.0.9" provider-name="lg">
+	<addon id="plugin.video.polsatbox_go_atv" name="PolsatBoxGO 4K" version="1.0.10" provider-name="lg">
 		<requires>
 			<import addon="xbmc.python" version="3.0.0"/>
 			<import addon="script.module.requests"/>
@@ -732,7 +732,7 @@
 			<reuselanguageinvoker>true</reuselanguageinvoker>
 		</extension>
 	</addon>
-	<addon id="plugin.audio.zpr" name="ZPR Radio" version="1.0.2" provider-name="lg">
+	<addon id="plugin.audio.zpr" name="ZPR Radio" version="1.0.3" provider-name="lg">
 		<requires>
 			<import addon="script.module.requests" />
 		<import addon="script.module.inputstreamhelper" />
@@ -758,7 +758,7 @@
 			<reuselanguageinvoker>true</reuselanguageinvoker>
 		</extension>
 	</addon>
-	<addon id="plugin.video.adapterpl" name="Adapter PL" version="1.0.2" provider-name="lg">
+	<addon id="plugin.video.adapterpl" name="Adapter PL" version="1.0.3" provider-name="lg">
 		<requires>
 			<import addon="script.module.requests" />
 			<import addon="script.module.inputstreamhelper" />
@@ -784,7 +784,7 @@
 			<reuselanguageinvoker>true</reuselanguageinvoker>
 		</extension>
 	</addon>
-	<addon id="plugin.video.player_pl" name="player.pl" version="1.0.5" provider-name="lg">
+	<addon id="plugin.video.player_pl" name="player.pl" version="1.0.6" provider-name="lg">
 		<requires>
 			<import addon="script.module.requests" />
 			<import addon="script.module.inputstreamhelper" />
@@ -811,7 +811,7 @@
 			<reuselanguageinvoker>true</reuselanguageinvoker>
 		</extension>
 	</addon>
-	<addon id="plugin.video.eurovisionsport" name="Eurovision Sport" version="1.0.3" provider-name="lg">
+	<addon id="plugin.video.eurovisionsport" name="Eurovision Sport" version="1.0.4" provider-name="lg">
 		<requires>
 			<import addon="script.module.requests" />
 			<import addon="script.module.inputstreamhelper" />
@@ -837,7 +837,7 @@
 			<reuselanguageinvoker>true</reuselanguageinvoker>
 		</extension>
 	</addon>
-	<addon id="plugin.video.megogo_atv" name="Megogo" version="1.0.2" provider-name="lg">
+	<addon id="plugin.video.megogo_atv" name="Megogo" version="1.0.3" provider-name="lg">
 		<requires>
 			<import addon="script.module.requests" />
 			<import addon="script.module.inputstreamhelper" />
@@ -863,7 +863,7 @@
 			<reuselanguageinvoker>true</reuselanguageinvoker>
 		</extension>
 	</addon>
-	<addon id="plugin.video.tv_smart_go" name="TV SMART GO" version="1.0.2" provider-name="lg">
+	<addon id="plugin.video.tv_smart_go" name="TV SMART GO" version="1.0.3" provider-name="lg">
 		<requires>
 			<import addon="script.module.requests" />
 		<import addon="script.module.inputstreamhelper" />
@@ -915,7 +915,7 @@
 			<reuselanguageinvoker>true</reuselanguageinvoker>
 		</extension>
 	</addon>
-	<addon id="plugin.video.flixclassicpl" name="FlixClassic" version="1.0.1" provider-name="lg">
+	<addon id="plugin.video.flixclassicpl" name="FlixClassic" version="1.0.2" provider-name="lg">
 		<requires>
 			<import addon="script.module.requests" />
 			<import addon="script.module.inputstreamhelper" />
@@ -941,7 +941,7 @@
 			<reuselanguageinvoker>true</reuselanguageinvoker>
 		</extension>
 	</addon>
-	<addon id="plugin.video.ninatekapl" name="Ninateka" version="1.0.0" provider-name="lg">
+	<addon id="plugin.video.ninatekapl" name="Ninateka" version="1.0.1" provider-name="lg">
 		<requires>
 			<import addon="script.module.requests" />
 			<import addon="script.module.inputstreamhelper" />
@@ -967,7 +967,7 @@
 			<reuselanguageinvoker>true</reuselanguageinvoker>
 		</extension>
 	</addon>
-	<addon id="plugin.video.elevens" name="Eleven Sports PL" version="1.0.1" provider-name="lg">
+	<addon id="plugin.video.elevens" name="Eleven Sports PL" version="1.0.2" provider-name="lg">
 		<requires>
 			<import addon="xbmc.python" version="3.0.0"/>
 			<import addon="script.module.requests"/>
@@ -1046,7 +1046,7 @@
 			<reuselanguageinvoker>true</reuselanguageinvoker>
 		</extension>
 	</addon>
-	<addon id="plugin.video.cda_premium" name="CDA Premium" version="1.1.3" provider-name="lg">
+	<addon id="plugin.video.cda_premium" name="CDA Premium" version="1.1.4" provider-name="lg">
 		<requires>
 			<import addon="script.module.requests" />
 			<import addon="script.module.inputstreamhelper" />
@@ -1072,7 +1072,7 @@
 			<reuselanguageinvoker>true</reuselanguageinvoker>
 		</extension>
 	</addon>
-	<addon id="plugin.video.orange_go" name="Orange Go" version="1.0.2" provider-name="lg">
+	<addon id="plugin.video.orange_go" name="Orange Go" version="1.0.3" provider-name="lg">
 		<requires>
 			<import addon="script.module.requests" />
 			<import addon="script.module.inputstreamhelper" />
@@ -1099,7 +1099,7 @@
 			<reuselanguageinvoker>true</reuselanguageinvoker>
 		</extension>
 	</addon>
-	<addon id="plugin.video.toya" name="TOYA GO 2026" version="1.0.0" provider-name="lg">
+	<addon id="plugin.video.toya" name="TOYA GO 2026" version="1.0.1" provider-name="lg">
 		<requires>
 			<import addon="script.module.requests" />
 		<import addon="script.module.inputstreamhelper" />
