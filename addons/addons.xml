@@ -106,33 +106,6 @@
 			<reuselanguageinvoker>true</reuselanguageinvoker>
 		</extension>
 	</addon>
-	<addon id="plugin.video.toya_go" name="TOYA GO" version="1.0.9" provider-name="lg">
-		<requires>
-			<import addon="script.module.requests" />
-			<import addon="script.module.inputstreamhelper" />
-
-		</requires>
-		<extension point="xbmc.python.pluginsource" library="addon.py">
-			<provides>video</provides>
-		</extension>
-		<extension point="xbmc.addon.metadata">
-			<description lang="pl">toya_go</description>
-			<disclaimer lang="pl">toya_go
-			</disclaimer>
-			<summary lang="en">toya_go</summary>
-			<description lang="en">toya_go</description>
-			<disclaimer lang="en">toya_go
-			</disclaimer>
-			<language>pl</language>
-			<platform>all</platform>
-			<license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
-			<website></website>
-			<assets>
-				<icon>icon.png</icon>
-			</assets>
-			<reuselanguageinvoker>true</reuselanguageinvoker>
-		</extension>
-	</addon>
 	<addon id="plugin.audio.eurozet" name="Eurozet Radio" version="1.0.1" provider-name="lg">
 		<requires>
 			<import addon="script.module.requests" />
@@ -784,7 +757,7 @@
 			<reuselanguageinvoker>true</reuselanguageinvoker>
 		</extension>
 	</addon>
-	<addon id="plugin.video.player_pl" name="player.pl" version="1.0.6" provider-name="lg">
+	<addon id="plugin.video.player_pl" name="player.pl" version="1.0.7" provider-name="lg">
 		<requires>
 			<import addon="script.module.requests" />
 			<import addon="script.module.inputstreamhelper" />
@@ -941,7 +914,7 @@
 			<reuselanguageinvoker>true</reuselanguageinvoker>
 		</extension>
 	</addon>
-	<addon id="plugin.video.ninatekapl" name="Ninateka" version="1.0.1" provider-name="lg">
+	<addon id="plugin.video.ninatekapl" name="Ninateka" version="1.0.2" provider-name="lg">
 		<requires>
 			<import addon="script.module.requests" />
 			<import addon="script.module.inputstreamhelper" />
@@ -1114,6 +1087,32 @@
 			<summary lang="en">TOYA GO 2026</summary>
 			<description lang="en">TOYA GO 2026</description>
 			<disclaimer lang="en">TOYA GO 2026
+			</disclaimer>
+			<language>pl</language>
+			<platform>all</platform>
+			<license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
+			<website></website>
+			<assets>
+				<icon>icon.png</icon>
+			</assets>
+			<reuselanguageinvoker>true</reuselanguageinvoker>
+		</extension>
+	</addon>
+	<addon id="plugin.video.tvn24_plus" name="TVN24+" version="1.0.0" provider-name="lg">
+		<requires>
+			<import addon="script.module.requests" />
+			<import addon="script.module.inputstreamhelper" />
+		</requires>
+		<extension point="xbmc.python.pluginsource" library="addon.py">
+			<provides>video</provides>
+		</extension>
+		<extension point="xbmc.addon.metadata">
+			<description lang="pl">TVN24+</description>
+			<disclaimer lang="pl">TVN24+
+			</disclaimer>
+			<summary lang="en">TVN24+</summary>
+			<description lang="en">TVN24+</description>
+			<disclaimer lang="en">TVN24+
 			</disclaimer>
 			<language>pl</language>
 			<platform>all</platform>
