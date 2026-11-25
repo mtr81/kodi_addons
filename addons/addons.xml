@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <addons>
-	<addon id="plugin.video.TVP_VOD" name="TVP_VOD" version="1.2.16" provider-name="lg">
+	<addon id="plugin.video.TVP_VOD" name="TVP_VOD" version="1.2.17" provider-name="lg">
 		<requires>
 			<import addon="script.module.requests" />
 			<import addon="script.module.inputstreamhelper" />
@@ -131,7 +131,7 @@
 			<reuselanguageinvoker>true</reuselanguageinvoker>
 		</extension>
 	</addon>
-	<addon id="plugin.audio.moje_pr" name="Moje PolskieRadio" version="1.0.6" provider-name="lg">
+	<addon id="plugin.audio.moje_pr" name="Moje PolskieRadio" version="1.0.7" provider-name="lg">
 		<requires>
 			<import addon="script.module.requests" />
 			<import addon="script.module.inputstreamhelper" />
@@ -705,7 +705,7 @@
 			<reuselanguageinvoker>true</reuselanguageinvoker>
 		</extension>
 	</addon>
-	<addon id="plugin.audio.zpr" name="ZPR Radio" version="1.0.5" provider-name="lg">
+	<addon id="plugin.audio.zpr" name="ZPR Radio" version="1.0.6" provider-name="lg">
 		<requires>
 			<import addon="script.module.requests" />
 		<import addon="script.module.inputstreamhelper" />
